@@ -1,0 +1,52 @@
+
+body{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+	
+
+	background: linear-gradient(0deg, rgba(190,243,183,1) 0%, rgba(107,192,146,1) 33%, rgba(133,191,128,1) 45%, rgba(157,190,111,1) 56%, rgba(203,189,80,1) 77%, rgba(140,212,169,1) 100%);
+
+    min-height: 100vh;
+    padding: 10px;;
+}
+
+.logo{
+   height: 150px;
+   width: 150px; 
+   object-fit: cover;
+   border-radius: 50%;    
+}
+
+.disp-container{
+    background: white;
+    box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.1);
+    padding: 12px;
+    display: flex;
+    gap: 24px;
+    border-radius: 10px
+}
+
+.company-name{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom:0px;
+    color: #266b00;
+    font-weight: bold;
+}
+
+.company{
+    margin-top: 8px;
+    color: #976855;
+}
+
+.brew_list{
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 24px;
+    min-width: 450px;
+    max-width: 575px;
+}
